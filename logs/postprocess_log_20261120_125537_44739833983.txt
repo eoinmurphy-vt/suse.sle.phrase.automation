@@ -1,0 +1,132 @@
+Postprocess started: 2026-11-20 12:55:37.488718
+
+⚠ MANUAL OVERRIDE TRIGGERED: Processing ALL files.
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/articles/agama-based-installation.asm.xml -> final/DC-SLES-ppc-agama-based-installation/de/articles/agama-based-installation.asm.xml
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/common/l10n-bookname-entities.ent -> final/DC-SLES-ppc-agama-based-installation/de/common/l10n-bookname-entities.ent
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/common/l10n-generic-entities.ent -> final/DC-SLES-ppc-agama-based-installation/de/common/l10n-generic-entities.ent
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/concepts/agama-introduction.xml -> final/DC-SLES-ppc-agama-based-installation/de/concepts/agama-introduction.xml
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/glues/agama-installation-more-info.xml -> final/DC-SLES-ppc-agama-based-installation/de/glues/agama-installation-more-info.xml
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/references/deployment-manual-authentication.xml -> final/DC-SLES-ppc-agama-based-installation/de/references/deployment-manual-authentication.xml
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/references/deployment-manual-installation-settings.xml -> final/DC-SLES-ppc-agama-based-installation/de/references/deployment-manual-installation-settings.xml
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/references/deployment-manual-language-region.xml -> final/DC-SLES-ppc-agama-based-installation/de/references/deployment-manual-language-region.xml
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/references/deployment-manual-network.xml -> final/DC-SLES-ppc-agama-based-installation/de/references/deployment-manual-network.xml
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/references/deployment-manual-product-selection.xml -> final/DC-SLES-ppc-agama-based-installation/de/references/deployment-manual-product-selection.xml
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/references/deployment-manual-registration.xml -> final/DC-SLES-ppc-agama-based-installation/de/references/deployment-manual-registration.xml
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/references/deployment-manual-software.xml -> final/DC-SLES-ppc-agama-based-installation/de/references/deployment-manual-software.xml
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/references/deployment-manual-storage.xml -> final/DC-SLES-ppc-agama-based-installation/de/references/deployment-manual-storage.xml
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/references/deployment-manual-system.xml -> final/DC-SLES-ppc-agama-based-installation/de/references/deployment-manual-system.xml
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/references/deployment-sle16-system-requirements.xml -> final/DC-SLES-ppc-agama-based-installation/de/references/deployment-sle16-system-requirements.xml
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/tasks/deployment-booting.xml -> final/DC-SLES-ppc-agama-based-installation/de/tasks/deployment-booting.xml
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-reboot-system.xml -> final/DC-SLES-ppc-agama-based-installation/de/tasks/deployment-manual-reboot-system.xml
+✓ Processed: de_de/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-start-installation.xml -> final/DC-SLES-ppc-agama-based-installation/de/tasks/deployment-manual-start-installation.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/articles/agama-based-installation.asm.xml -> final/DC-SLES-ppc-agama-based-installation/es/articles/agama-based-installation.asm.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/common/l10n-bookname-entities.ent -> final/DC-SLES-ppc-agama-based-installation/es/common/l10n-bookname-entities.ent
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/common/l10n-generic-entities.ent -> final/DC-SLES-ppc-agama-based-installation/es/common/l10n-generic-entities.ent
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/concepts/agama-introduction.xml -> final/DC-SLES-ppc-agama-based-installation/es/concepts/agama-introduction.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/glues/agama-installation-more-info.xml -> final/DC-SLES-ppc-agama-based-installation/es/glues/agama-installation-more-info.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/references/deployment-manual-authentication.xml -> final/DC-SLES-ppc-agama-based-installation/es/references/deployment-manual-authentication.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/references/deployment-manual-installation-settings.xml -> final/DC-SLES-ppc-agama-based-installation/es/references/deployment-manual-installation-settings.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/references/deployment-manual-language-region.xml -> final/DC-SLES-ppc-agama-based-installation/es/references/deployment-manual-language-region.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/references/deployment-manual-network.xml -> final/DC-SLES-ppc-agama-based-installation/es/references/deployment-manual-network.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/references/deployment-manual-product-selection.xml -> final/DC-SLES-ppc-agama-based-installation/es/references/deployment-manual-product-selection.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/references/deployment-manual-registration.xml -> final/DC-SLES-ppc-agama-based-installation/es/references/deployment-manual-registration.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/references/deployment-manual-software.xml -> final/DC-SLES-ppc-agama-based-installation/es/references/deployment-manual-software.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/references/deployment-manual-storage.xml -> final/DC-SLES-ppc-agama-based-installation/es/references/deployment-manual-storage.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/references/deployment-manual-system.xml -> final/DC-SLES-ppc-agama-based-installation/es/references/deployment-manual-system.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/references/deployment-sle16-system-requirements.xml -> final/DC-SLES-ppc-agama-based-installation/es/references/deployment-sle16-system-requirements.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/tasks/deployment-booting.xml -> final/DC-SLES-ppc-agama-based-installation/es/tasks/deployment-booting.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-reboot-system.xml -> final/DC-SLES-ppc-agama-based-installation/es/tasks/deployment-manual-reboot-system.xml
+✓ Processed: es_es/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-start-installation.xml -> final/DC-SLES-ppc-agama-based-installation/es/tasks/deployment-manual-start-installation.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/articles/agama-based-installation.asm.xml -> final/DC-SLES-ppc-agama-based-installation/fr/articles/agama-based-installation.asm.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/common/l10n-bookname-entities.ent -> final/DC-SLES-ppc-agama-based-installation/fr/common/l10n-bookname-entities.ent
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/common/l10n-generic-entities.ent -> final/DC-SLES-ppc-agama-based-installation/fr/common/l10n-generic-entities.ent
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/concepts/agama-introduction.xml -> final/DC-SLES-ppc-agama-based-installation/fr/concepts/agama-introduction.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/glues/agama-installation-more-info.xml -> final/DC-SLES-ppc-agama-based-installation/fr/glues/agama-installation-more-info.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/references/deployment-manual-authentication.xml -> final/DC-SLES-ppc-agama-based-installation/fr/references/deployment-manual-authentication.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/references/deployment-manual-installation-settings.xml -> final/DC-SLES-ppc-agama-based-installation/fr/references/deployment-manual-installation-settings.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/references/deployment-manual-language-region.xml -> final/DC-SLES-ppc-agama-based-installation/fr/references/deployment-manual-language-region.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/references/deployment-manual-network.xml -> final/DC-SLES-ppc-agama-based-installation/fr/references/deployment-manual-network.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/references/deployment-manual-product-selection.xml -> final/DC-SLES-ppc-agama-based-installation/fr/references/deployment-manual-product-selection.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/references/deployment-manual-registration.xml -> final/DC-SLES-ppc-agama-based-installation/fr/references/deployment-manual-registration.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/references/deployment-manual-software.xml -> final/DC-SLES-ppc-agama-based-installation/fr/references/deployment-manual-software.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/references/deployment-manual-storage.xml -> final/DC-SLES-ppc-agama-based-installation/fr/references/deployment-manual-storage.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/references/deployment-manual-system.xml -> final/DC-SLES-ppc-agama-based-installation/fr/references/deployment-manual-system.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/references/deployment-sle16-system-requirements.xml -> final/DC-SLES-ppc-agama-based-installation/fr/references/deployment-sle16-system-requirements.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/tasks/deployment-booting.xml -> final/DC-SLES-ppc-agama-based-installation/fr/tasks/deployment-booting.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-reboot-system.xml -> final/DC-SLES-ppc-agama-based-installation/fr/tasks/deployment-manual-reboot-system.xml
+✓ Processed: fr_fr/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-start-installation.xml -> final/DC-SLES-ppc-agama-based-installation/fr/tasks/deployment-manual-start-installation.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/articles/agama-based-installation.asm.xml -> final/DC-SLES-ppc-agama-based-installation/ja/articles/agama-based-installation.asm.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/common/l10n-bookname-entities.ent -> final/DC-SLES-ppc-agama-based-installation/ja/common/l10n-bookname-entities.ent
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/common/l10n-generic-entities.ent -> final/DC-SLES-ppc-agama-based-installation/ja/common/l10n-generic-entities.ent
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/concepts/agama-introduction.xml -> final/DC-SLES-ppc-agama-based-installation/ja/concepts/agama-introduction.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/glues/agama-installation-more-info.xml -> final/DC-SLES-ppc-agama-based-installation/ja/glues/agama-installation-more-info.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/references/deployment-manual-authentication.xml -> final/DC-SLES-ppc-agama-based-installation/ja/references/deployment-manual-authentication.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/references/deployment-manual-installation-settings.xml -> final/DC-SLES-ppc-agama-based-installation/ja/references/deployment-manual-installation-settings.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/references/deployment-manual-language-region.xml -> final/DC-SLES-ppc-agama-based-installation/ja/references/deployment-manual-language-region.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/references/deployment-manual-network.xml -> final/DC-SLES-ppc-agama-based-installation/ja/references/deployment-manual-network.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/references/deployment-manual-product-selection.xml -> final/DC-SLES-ppc-agama-based-installation/ja/references/deployment-manual-product-selection.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/references/deployment-manual-registration.xml -> final/DC-SLES-ppc-agama-based-installation/ja/references/deployment-manual-registration.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/references/deployment-manual-software.xml -> final/DC-SLES-ppc-agama-based-installation/ja/references/deployment-manual-software.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/references/deployment-manual-storage.xml -> final/DC-SLES-ppc-agama-based-installation/ja/references/deployment-manual-storage.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/references/deployment-manual-system.xml -> final/DC-SLES-ppc-agama-based-installation/ja/references/deployment-manual-system.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/references/deployment-sle16-system-requirements.xml -> final/DC-SLES-ppc-agama-based-installation/ja/references/deployment-sle16-system-requirements.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/tasks/deployment-booting.xml -> final/DC-SLES-ppc-agama-based-installation/ja/tasks/deployment-booting.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-reboot-system.xml -> final/DC-SLES-ppc-agama-based-installation/ja/tasks/deployment-manual-reboot-system.xml
+✓ Processed: ja_jp/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-start-installation.xml -> final/DC-SLES-ppc-agama-based-installation/ja/tasks/deployment-manual-start-installation.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/articles/agama-based-installation.asm.xml -> final/DC-SLES-ppc-agama-based-installation/pt/articles/agama-based-installation.asm.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/common/l10n-bookname-entities.ent -> final/DC-SLES-ppc-agama-based-installation/pt/common/l10n-bookname-entities.ent
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/common/l10n-generic-entities.ent -> final/DC-SLES-ppc-agama-based-installation/pt/common/l10n-generic-entities.ent
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/concepts/agama-introduction.xml -> final/DC-SLES-ppc-agama-based-installation/pt/concepts/agama-introduction.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/glues/agama-installation-more-info.xml -> final/DC-SLES-ppc-agama-based-installation/pt/glues/agama-installation-more-info.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/references/deployment-manual-authentication.xml -> final/DC-SLES-ppc-agama-based-installation/pt/references/deployment-manual-authentication.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/references/deployment-manual-installation-settings.xml -> final/DC-SLES-ppc-agama-based-installation/pt/references/deployment-manual-installation-settings.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/references/deployment-manual-language-region.xml -> final/DC-SLES-ppc-agama-based-installation/pt/references/deployment-manual-language-region.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/references/deployment-manual-network.xml -> final/DC-SLES-ppc-agama-based-installation/pt/references/deployment-manual-network.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/references/deployment-manual-product-selection.xml -> final/DC-SLES-ppc-agama-based-installation/pt/references/deployment-manual-product-selection.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/references/deployment-manual-registration.xml -> final/DC-SLES-ppc-agama-based-installation/pt/references/deployment-manual-registration.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/references/deployment-manual-software.xml -> final/DC-SLES-ppc-agama-based-installation/pt/references/deployment-manual-software.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/references/deployment-manual-storage.xml -> final/DC-SLES-ppc-agama-based-installation/pt/references/deployment-manual-storage.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/references/deployment-manual-system.xml -> final/DC-SLES-ppc-agama-based-installation/pt/references/deployment-manual-system.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/references/deployment-sle16-system-requirements.xml -> final/DC-SLES-ppc-agama-based-installation/pt/references/deployment-sle16-system-requirements.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/tasks/deployment-booting.xml -> final/DC-SLES-ppc-agama-based-installation/pt/tasks/deployment-booting.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-reboot-system.xml -> final/DC-SLES-ppc-agama-based-installation/pt/tasks/deployment-manual-reboot-system.xml
+✓ Processed: pt_br/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-start-installation.xml -> final/DC-SLES-ppc-agama-based-installation/pt/tasks/deployment-manual-start-installation.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/articles/agama-based-installation.asm.xml -> final/DC-SLES-ppc-agama-based-installation/zh/articles/agama-based-installation.asm.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/common/l10n-bookname-entities.ent -> final/DC-SLES-ppc-agama-based-installation/zh/common/l10n-bookname-entities.ent
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/common/l10n-generic-entities.ent -> final/DC-SLES-ppc-agama-based-installation/zh/common/l10n-generic-entities.ent
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/concepts/agama-introduction.xml -> final/DC-SLES-ppc-agama-based-installation/zh/concepts/agama-introduction.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/glues/agama-installation-more-info.xml -> final/DC-SLES-ppc-agama-based-installation/zh/glues/agama-installation-more-info.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/references/deployment-manual-authentication.xml -> final/DC-SLES-ppc-agama-based-installation/zh/references/deployment-manual-authentication.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/references/deployment-manual-installation-settings.xml -> final/DC-SLES-ppc-agama-based-installation/zh/references/deployment-manual-installation-settings.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/references/deployment-manual-language-region.xml -> final/DC-SLES-ppc-agama-based-installation/zh/references/deployment-manual-language-region.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/references/deployment-manual-network.xml -> final/DC-SLES-ppc-agama-based-installation/zh/references/deployment-manual-network.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/references/deployment-manual-product-selection.xml -> final/DC-SLES-ppc-agama-based-installation/zh/references/deployment-manual-product-selection.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/references/deployment-manual-registration.xml -> final/DC-SLES-ppc-agama-based-installation/zh/references/deployment-manual-registration.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/references/deployment-manual-software.xml -> final/DC-SLES-ppc-agama-based-installation/zh/references/deployment-manual-software.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/references/deployment-manual-storage.xml -> final/DC-SLES-ppc-agama-based-installation/zh/references/deployment-manual-storage.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/references/deployment-manual-system.xml -> final/DC-SLES-ppc-agama-based-installation/zh/references/deployment-manual-system.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/references/deployment-sle16-system-requirements.xml -> final/DC-SLES-ppc-agama-based-installation/zh/references/deployment-sle16-system-requirements.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/tasks/deployment-booting.xml -> final/DC-SLES-ppc-agama-based-installation/zh/tasks/deployment-booting.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-reboot-system.xml -> final/DC-SLES-ppc-agama-based-installation/zh/tasks/deployment-manual-reboot-system.xml
+✓ Processed: zh_cn/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-start-installation.xml -> final/DC-SLES-ppc-agama-based-installation/zh/tasks/deployment-manual-start-installation.xml
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/generic-entities.ent -> final/DC-SLES-ppc-agama-based-installation/de/common/generic-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/product-entities.ent -> final/DC-SLES-ppc-agama-based-installation/de/common/product-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/network-entities.ent -> final/DC-SLES-ppc-agama-based-installation/de/common/network-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/generic-entities.ent -> final/DC-SLES-ppc-agama-based-installation/es/common/generic-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/product-entities.ent -> final/DC-SLES-ppc-agama-based-installation/es/common/product-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/network-entities.ent -> final/DC-SLES-ppc-agama-based-installation/es/common/network-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/generic-entities.ent -> final/DC-SLES-ppc-agama-based-installation/fr/common/generic-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/product-entities.ent -> final/DC-SLES-ppc-agama-based-installation/fr/common/product-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/network-entities.ent -> final/DC-SLES-ppc-agama-based-installation/fr/common/network-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/generic-entities.ent -> final/DC-SLES-ppc-agama-based-installation/ja/common/generic-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/product-entities.ent -> final/DC-SLES-ppc-agama-based-installation/ja/common/product-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/network-entities.ent -> final/DC-SLES-ppc-agama-based-installation/ja/common/network-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/generic-entities.ent -> final/DC-SLES-ppc-agama-based-installation/pt/common/generic-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/product-entities.ent -> final/DC-SLES-ppc-agama-based-installation/pt/common/product-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/network-entities.ent -> final/DC-SLES-ppc-agama-based-installation/pt/common/network-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/generic-entities.ent -> final/DC-SLES-ppc-agama-based-installation/zh/common/generic-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/product-entities.ent -> final/DC-SLES-ppc-agama-based-installation/zh/common/product-entities.ent
+✓ Copied unchanged: source/DC-SLES-ppc-agama-based-installation/common/network-entities.ent -> final/DC-SLES-ppc-agama-based-installation/zh/common/network-entities.ent
+
+=== Postprocess Complete ===
+Summary: Processed=108, Copied unchanged=18, Warnings=0, Errors=0, Skipped=0
