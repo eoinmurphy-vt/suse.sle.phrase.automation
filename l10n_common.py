@@ -67,6 +67,14 @@ def restore_attr_entities(text):
     return _ATTR_ENTITY_PLACEHOLDER_RE.subn(r"&\1;", text)
 
 
+def is_copied_unchanged(path):
+    """True for entity files that are not translated but must be delivered with the
+    translations (generic-entities.ent, product-entities.ent, ...): the translated
+    files load them through their DOCTYPE."""
+    name = os.path.basename(path)
+    return name.endswith(".ent") and not fnmatch.fnmatch(name, ENT_PATTERN)
+
+
 def file_kind(path):
     """Return 'xml', 'ent' or None (None = not sent for translation)."""
     name = os.path.basename(path)

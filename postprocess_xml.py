@@ -25,6 +25,8 @@ SRC_DIR = os.getenv("SRC_DIR", "translated")
 DST_DIR = os.getenv("DST_DIR", "final")
 # English files as they were sent to Phrase TMS; used for the comparison checks.
 REF_DIR = os.getenv("REF_DIR", "processed")
+# English files as synced from the client repo; the non-translated entity files are copied from here.
+SOURCE_DIR = os.getenv("SOURCE_DIR", "source")
 SET_XML_LANG = os.getenv("SET_XML_LANG", "true").lower() != "false"
 LOG_DIR = "logs"
 
@@ -35,7 +37,7 @@ timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 run_id = os.getenv("GITHUB_RUN_ID", "local")
 LOG_FILE = f"{LOG_DIR}/postprocess_log_{timestamp}_{run_id}.txt"
 
-stats = {"processed": 0, "errors": 0, "skipped": 0, "warnings": 0}
+stats = {"processed": 0, "errors": 0, "skipped": 0, "warnings": 0, "copied": 0}
 
 XML_LANG_RE = re.compile(r'(xml:lang\s*=\s*)(["\'])en(?:[-_][A-Za-z]+)?\2')
 
@@ -189,8 +191,36 @@ for src_path in sorted(files_to_process):
     stats["processed"] += 1
     log(f"✓ Processed: {rel} -> {dst_path}")
 
+
+def copy_unchanged_entity_files():
+    """Copy the non-translated entity files (generic-entities.ent, ...) from the English
+    source into every delivered language folder, so the DOCTYPE of the translated files
+    (../common/generic-entities.ent) resolves."""
+    if not os.path.isdir(SOURCE_DIR):
+        return
+    for repo_id in sorted(os.listdir(DST_DIR)):
+        src_repo, dst_repo = os.path.join(SOURCE_DIR, repo_id), os.path.join(DST_DIR, repo_id)
+        if not os.path.isdir(src_repo) or not os.path.isdir(dst_repo):
+            continue
+        if TARGET_PRODUCT and repo_id != TARGET_PRODUCT:
+            continue
+        files = [p for p in Path(src_repo).rglob("*.ent") if common.is_copied_unchanged(str(p))]
+        for lang_dir in sorted(p for p in Path(dst_repo).iterdir() if p.is_dir()):
+            for p in files:
+                dst = lang_dir / p.relative_to(src_repo)
+                data = p.read_bytes()
+                if dst.is_file() and dst.read_bytes() == data:
+                    continue
+                dst.parent.mkdir(parents=True, exist_ok=True)
+                dst.write_bytes(data)
+                stats["copied"] += 1
+                log(f"✓ Copied unchanged: {p} -> {dst}")
+
+
+copy_unchanged_entity_files()
+
 log(f"\n=== Postprocess Complete ===")
-log(f"Summary: Processed={stats['processed']}, Warnings={stats['warnings']}, Errors={stats['errors']}, Skipped={stats['skipped']}")
+log(f"Summary: Processed={stats['processed']}, Copied unchanged={stats['copied']}, Warnings={stats['warnings']}, Errors={stats['errors']}, Skipped={stats['skipped']}")
 
 # A non-zero exit marks the workflow run as failed. The files that passed are still committed.
 if stats["errors"]:

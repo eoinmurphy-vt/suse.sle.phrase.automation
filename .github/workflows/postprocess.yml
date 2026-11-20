@@ -45,6 +45,8 @@ jobs:
       SPECIFIC_PRODUCT: ${{ inputs.specific_product }}
       SRC_DIR: ${{ vars.TRANSLATED_DIR || 'translated' }}
       DST_DIR: ${{ vars.FINAL_DIR || 'final' }}
+      # English source; the untranslated entity files (generic-entities.ent, ...) are copied from here
+      SOURCE_DIR: ${{ vars.CONTENT_DIR || 'source' }}
       # Set the repository variable SET_XML_LANG to 'false' to leave xml:lang="en" untouched
       SET_XML_LANG: ${{ vars.SET_XML_LANG || 'true' }}
       CURRENT_REPO: ${{ github.repository }}

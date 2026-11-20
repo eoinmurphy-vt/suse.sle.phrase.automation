@@ -101,6 +101,8 @@ jobs:
           
           # Map the exclude_paths variable
           EXCLUDE_PATHS: ${{ matrix.client.exclude_paths }}
+          # Optional: only sync these files (space-separated, relative to watch_path)
+          INCLUDE_PATHS: ${{ matrix.client.include_paths }}
           
           EXT_PAT: ${{ secrets.SUSE_PHRASE_CLIENT_WRITE_PAT }}
           # Token to write back to THIS repo (triggering downstream workflows)
@@ -116,15 +118,31 @@ jobs:
           LOCAL_TARGET="source/$CLIENT_ID"
           mkdir -p "$LOCAL_TARGET"
 
-          # Build Rsync Exclude Arguments dynamically
+          # Build Rsync Exclude Arguments dynamically ("none" or empty = nothing excluded)
           RSYNC_EXCLUDES=""
           for path in $EXCLUDE_PATHS; do
+            [ "$path" = "none" ] && continue
             RSYNC_EXCLUDES="$RSYNC_EXCLUDES --exclude=$path"
           done
-          
-          # Only DocBook XML and the localizable entity files are synced.
+
+          # DocBook XML and all entity files (.ent) are synced.
+          # l10n-*.ent files are translated; the other .ent files are not sent to Phrase TMS,
+          # postprocess copies them unchanged into every language so the translations build.
           # schemas.xml (editor schema locations) is never translated.
-          rsync -av --delete $RSYNC_EXCLUDES --exclude='schemas.xml' --include='*.xml' --include='l10n-*.ent' --include='*/' --exclude='*' "temp_client/$WATCH_PATH" "$LOCAL_TARGET/"
+          # If include_paths lists files, only those XML files (plus all .ent files) are synced.
+          RSYNC_INCLUDES="--include=*.xml --include=*.ent"
+          INCLUDED=0
+          for path in $INCLUDE_PATHS; do
+            [ "$path" = "none" ] && continue
+            if [ "$INCLUDED" = 0 ]; then RSYNC_INCLUDES="--include=*.ent"; INCLUDED=1; fi
+            if [ ! -f "temp_client/$WATCH_PATH/$path" ]; then
+              echo "::warning::include_paths entry not found in $CLIENT_URL ($CLIENT_BRANCH): $WATCH_PATH$path"
+            fi
+            RSYNC_INCLUDES="$RSYNC_INCLUDES --include=/${path#/}"
+          done
+          if [ "$INCLUDED" = 1 ]; then echo "Syncing only the files listed in include_paths"; fi
+
+          rsync -av --delete --prune-empty-dirs $RSYNC_EXCLUDES --exclude='schemas.xml' $RSYNC_INCLUDES --include='*/' --exclude='*' "temp_client/$WATCH_PATH" "$LOCAL_TARGET/"
           
           git add "$LOCAL_TARGET"
           

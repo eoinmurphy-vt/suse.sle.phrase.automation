@@ -36,7 +36,7 @@ The badges above show the current automation state for each workflow action:
 | `*.xml` (incl. `*.asm.xml`)  | Yes                | Imported with the XML (XPath) file import settings of the template |
 | `l10n-*.ent`                 | Yes                | Imported by the Phrase TMS custom file type `l10n-.*\.ent` (TXT)   |
 | `schemas.xml`                | No                 | Editor schema locations, nothing to translate                      |
-| Any other `*.ent`            | No                 | For example `generic-entities.ent`: product names, not translated  |
+| Any other `*.ent`            | No                 | For example `generic-entities.ent`: not translated, copied unchanged into every language folder, because the translated files load them |
 | Images and all other files   | No                 | Not synced                                                         |
 
 ---
@@ -45,7 +45,8 @@ The badges above show the current automation state for each workflow action:
 
 1. **Sync Stage** (`sync-from-client-repo.yml`)
 
-   * Copies `*.xml` and `l10n-*.ent` from the client repository into `source/<client-id>/`
+   * Copies `*.xml` and all `*.ent` files from the client repository into `source/<client-id>/`
+     (with `include_paths`: only the listed XML files, plus all `*.ent` files)
 
 2. **Preprocessing Stage** (`preprocess.yml`, `preprocess_xml.py`)
 
@@ -77,6 +78,8 @@ The badges above show the current automation state for each workflow action:
      `<?xml version='1.0' encoding='UTF-8'?>` to files that have no declaration; it is removed again
    * Sets `xml:lang` to the target language, for example `xml:lang="en"` → `xml:lang="de"`
      (switch off with the variable `SET_XML_LANG` = `false`)
+   * Copies the untranslated entity files (`generic-entities.ent`, `product-entities.ent`, …) unchanged
+     from `source/` into every language folder, so `../common/generic-entities.ent` resolves
    * **Does not deliver** a file that is broken: XML that is no longer well-formed, or an `.ent` file
      whose `<!ENTITY …>` lines or entity names were damaged. The run is marked as failed and the
      file is named in the log; all other files are still written
@@ -200,12 +203,13 @@ This variable contains the client‑specific repository configuration as a **JSO
 | **watch\_path**   | Path within the client repo to watch for changes (end it with `/`).                                |
 | **target\_path**  | Path in the client repo where the language folders are delivered.                                  |
 | **exclude_paths** | List of files and folders to exclude (separated by space). Use empty string `""` for no exclusions |
+| **include_paths** | Optional. Only sync these files, relative to `watch_path` (separated by space), for example `articles/a.asm.xml tasks/b.xml`. Leave out, or use `""`, to sync everything |
 
 ---
 
 ### 👥 For Project Managers
 
-* New or changed `.xml` and `l10n-*.ent` files in the **`watch_path`** of the client repository are picked up by the `Sync Changes from External Repos` action and copied to **`source/`**.
+* New or changed `.xml` and `.ent` files in the **`watch_path`** of the client repository are picked up by the `Sync Changes from External Repos` action and copied to **`source/`**.
 * Phrase TMS automatically detects and imports them from the **`processed/`** folder.
 * Once translations are complete, the **`translated/`** folder is updated automatically.
 * Run `Postprocess Translated Files` from the *Actions* tab. The **`final/`** folder then contains the checked files. If the run is red, open its log: it names every file that was not delivered and why.
@@ -217,7 +221,7 @@ This variable contains the client‑specific repository configuration as a **JSO
 
    While most settings are configurable via the Variables UI, specific GitHub architecture limitations require the following to be changed manually in the YML files if updated:
    * Schedules: The sync frequency (e.g., */15 * * * *) must be edited in .github/workflows/sync-from-client-repo.yml.
-   * File types: The file patterns that are synced (`*.xml`, `l10n-*.ent`) are set in sync-from-client-repo.yml and in `l10n_common.py`.
+   * File types: The file patterns that are synced (`*.xml`, `*.ent`) are set in sync-from-client-repo.yml; which `.ent` files are translated (`l10n-*.ent`) is set in `l10n_common.py`.
    * `preprocess_xml.py` always reads from `source/` and writes to `processed/`.
    * Files deleted in the client repository are not removed from `processed/`, `translated/` or `final/`.
 
