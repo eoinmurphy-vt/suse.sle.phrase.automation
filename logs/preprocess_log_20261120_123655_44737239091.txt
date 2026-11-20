@@ -1,0 +1,5 @@
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/references/deployment-manual-storage.xml
+Protected 1 entity reference(s) in attribute values
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/references/deployment-manual-storage.xml
+Completed at 2026-11-20 12:36:55.333808
+
