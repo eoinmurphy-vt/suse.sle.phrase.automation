@@ -1,0 +1,69 @@
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/tasks/deployment-booting.xml
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/tasks/deployment-booting.xml
+Completed at 2026-11-20 12:21:10.007226
+
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-start-installation.xml
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-start-installation.xml
+Completed at 2026-11-20 12:21:10.034152
+
+⏭ Skipped (not sent for translation): source/DC-SLES-ppc-agama-based-installation/common/generic-entities.ent
+⏭ Skipped (not sent for translation): source/DC-SLES-ppc-agama-based-installation/common/product-entities.ent
+⏭ Skipped (not sent for translation): source/DC-SLES-ppc-agama-based-installation/common/network-entities.ent
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/common/l10n-generic-entities.ent
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/common/l10n-generic-entities.ent
+Completed at 2026-11-20 12:21:10.143521
+
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/common/l10n-bookname-entities.ent
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/common/l10n-bookname-entities.ent
+Completed at 2026-11-20 12:21:10.168539
+
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/concepts/agama-introduction.xml
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/concepts/agama-introduction.xml
+Completed at 2026-11-20 12:21:10.193993
+
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/glues/agama-installation-more-info.xml
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/glues/agama-installation-more-info.xml
+Completed at 2026-11-20 12:21:10.219403
+
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/articles/agama-based-installation.asm.xml
+Protected 1 entity reference(s) in attribute values
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/articles/agama-based-installation.asm.xml
+Completed at 2026-11-20 12:21:10.244996
+
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/references/deployment-manual-network.xml
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/references/deployment-manual-network.xml
+Completed at 2026-11-20 12:21:10.271421
+
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/references/deployment-manual-installation-settings.xml
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/references/deployment-manual-installation-settings.xml
+Completed at 2026-11-20 12:21:10.296837
+
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/references/deployment-manual-registration.xml
+Protected 1 entity reference(s) in attribute values
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/references/deployment-manual-registration.xml
+Completed at 2026-11-20 12:21:10.322212
+
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/references/deployment-manual-authentication.xml
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/references/deployment-manual-authentication.xml
+Completed at 2026-11-20 12:21:10.347592
+
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/references/deployment-manual-software.xml
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/references/deployment-manual-software.xml
+Completed at 2026-11-20 12:21:10.372792
+
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/references/deployment-sle16-system-requirements.xml
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/references/deployment-sle16-system-requirements.xml
+Completed at 2026-11-20 12:21:10.397799
+
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/references/deployment-manual-system.xml
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/references/deployment-manual-system.xml
+Completed at 2026-11-20 12:21:10.422836
+
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/references/deployment-manual-product-selection.xml
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/references/deployment-manual-product-selection.xml
+Completed at 2026-11-20 12:21:10.448019
+
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/references/deployment-manual-language-region.xml
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/references/deployment-manual-language-region.xml
+Completed at 2026-11-20 12:21:10.473545
+

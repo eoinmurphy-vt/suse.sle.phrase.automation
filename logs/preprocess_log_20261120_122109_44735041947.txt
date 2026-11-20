@@ -1,0 +1,4 @@
+Starting preprocess: source/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-reboot-system.xml
+Saved processed file → processed/DC-SLES-ppc-agama-based-installation/tasks/deployment-manual-reboot-system.xml
+Completed at 2026-11-20 12:21:09.980597
+
